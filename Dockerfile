@@ -1,4 +1,4 @@
 FROM openjdk:17-alpine
-EXPOSE 9089
+EXPOSE 8081
 COPY target/springbootdocker.jar springbootdocker.jar
 ENTRYPOINT ["java", "-jar", "/springbootdocker.jar"]
